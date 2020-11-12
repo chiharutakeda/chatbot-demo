@@ -48,7 +48,8 @@ export default class FormDialog extends React.Component{
                     'Email:' +email + '\n' +
                     'お問い合わせ内容:\n' + description
         }
-        const url ="https://hooks.slack.com/services/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"
+        // const url ="https://hooks.slack.com/services/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"
+        const url ="";
 
         fetch(url,{
             method:"POST",
